@@ -8,7 +8,6 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     CharacterController _charCont;
-    Transform _player;
     Vector2 _rawMovementInput;
     float _gravVelocity;
     float _gravMultiplyer = 1;
