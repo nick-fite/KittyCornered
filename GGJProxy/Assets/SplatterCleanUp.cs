@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class SplatterCleanUp : MonoBehaviour
@@ -22,21 +23,22 @@ public class SplatterCleanUp : MonoBehaviour
                 //Vector2Int textCoord = new Vector2Int((int)hit.textureCoord.x * bloodMaskTexture.width, (int)hit.textureCoord.y * bloodMaskTexture.height);
                 Material mat = hit.collider.GetComponent<Renderer>().material;
                 Texture2D tex = mat.mainTexture as Texture2D;
-                Texture2D newTex = new Texture2D(tex.width, tex.height);
+                Texture2D newTex = tex;
                 
                 Vector2 pixelUV = hit.textureCoord;
                 pixelUV.x *= tex.width;
                 pixelUV.y *= tex.height;
 
                 Vector2Int start = new Vector2Int((int)pixelUV.x -5, (int)pixelUV.y -5);
+                List<Color32> test = new List<Color32>();
                 for(int i = 0; i < 10; i++)
                 {
                     for(int j = 0; j < 10; j++)
                     {
-                        newTex.SetPixel((int)pixelUV.x + i, (int)pixelUV.y + j, Color.black);
+                        test.Add(Color.black);
                     }
-
                 }
+                tex.SetPixels32(start.x, start.y, 10,10, test.ToArray());
 
                 tex.Apply();
 
