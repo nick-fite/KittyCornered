@@ -601,7 +601,7 @@ Transform:
   m_GameObject: {fileID: 1059203078}
   serializedVersion: 2
   m_LocalRotation: {x: 0.4404368, y: 0, z: 0, w: 0.89778364}
-  m_LocalPosition: {x: -0.14, y: 9.46, z: -16.776001}
+  m_LocalPosition: {x: -0.04, y: 12.23, z: -16.776001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -840,7 +840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c001ff3164e26b4ca41e835ae2d205c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bloodMaskTexture: {fileID: 2800000, guid: 3ece116177334a14b8cd077ac187f50e, type: 3}
+  floorTexture: {fileID: 0}
 --- !u!1 &1631157205
 GameObject:
   m_ObjectHideFlags: 0
@@ -1088,7 +1088,7 @@ Transform:
   m_GameObject: {fileID: 1739224159}
   serializedVersion: 2
   m_LocalRotation: {x: 0.44043678, y: 0, z: 0, w: 0.89778364}
-  m_LocalPosition: {x: -0.14, y: 9.46, z: -16.776001}
+  m_LocalPosition: {x: -0.04, y: 12.23, z: -16.776001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1618,7 +1618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7629425722447133687, guid: bdb62afb3622ed546b6d0c1356c1b30e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.731
+      value: -3.05
       objectReference: {fileID: 0}
     - target: {fileID: 7629425722447133687, guid: bdb62afb3622ed546b6d0c1356c1b30e, type: 3}
       propertyPath: m_LocalPosition.y
