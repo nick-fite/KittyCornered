@@ -11,6 +11,7 @@ public class PlayerMovement : Health
     Vector2 _rawMovementInput;
     float _gravVelocity;
     float _gravMultiplyer = 1;
+    Shoot _shoot;
     public CameraStyle CurrentStyle;
 
     [SerializeField] float speed;
@@ -22,6 +23,7 @@ public class PlayerMovement : Health
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        _shoot = GetComponent<Shoot>();
         _charCont = gameObject.GetComponent<CharacterController>();
         _cam = Camera.main;
         health = _health;
@@ -81,10 +83,12 @@ public class PlayerMovement : Health
     {
         if(context.performed)
         {
+            _shoot.CanShoot = false;
             _rawMovementInput = context.ReadValue<Vector2>();
         }
         if(context.canceled) 
         {
+            _shoot.CanShoot = true;
             _rawMovementInput = Vector2.zero;
         }
     }

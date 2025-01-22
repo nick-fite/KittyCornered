@@ -1,9 +1,12 @@
+using Unity.Cinemachine;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Shoot : MonoBehaviour
 {
     [SerializeField] Transform _startShootingPos;
+    public bool CanShoot = true;
     Vector3 _shootMousePos;
     Camera _mainCamera;
     
@@ -30,7 +33,7 @@ public class Shoot : MonoBehaviour
 
     public void OnMousePress(InputAction.CallbackContext context)
     {
-        if(context.performed)
+        if(context.performed && CanShoot)
         {
             ShootGun();
         }
@@ -38,14 +41,18 @@ public class Shoot : MonoBehaviour
 
     public void OnMouseMove(InputAction.CallbackContext context)
     {
-        if(context.performed)
+        if(context.performed && CanShoot)
         {
-            Ray ray = _mainCamera.ScreenPointToRay(context.ReadValue<Vector2>()); 
-            
+            Ray ray = _mainCamera.ScreenPointToRay(context.ReadValue<Vector2>());    
             if(Physics.Raycast(ray, out RaycastHit hit)) {
                 _shootMousePos = hit.point;
+                Vector3 targetPos = new Vector3(_shootMousePos.x, transform.position.y, _shootMousePos.z);
+                transform.LookAt(targetPos);
+                /*Vector3 lookPos = transform.position - hit.collider.transform.position;
+                lookPos.y = 0;
+                Quaternion rot = Quaternion.LookRotation(lookPos);
+                transform.rotation = rot;*/
             }
-
         }
 
     }

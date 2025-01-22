@@ -12,6 +12,7 @@ public class SplatScript : MonoBehaviour
     {
         floorPixels = SplatManager.SplatManagerInstance.floorPixels;    
         bloodFloorPixels = SplatManager.SplatManagerInstance.bloodFloorPixels;
+        snotFloorPixels = SplatManager.SplatManagerInstance.snotFloorPixels;
     }
 
     public void SplatBlood()
@@ -53,6 +54,7 @@ public class SplatScript : MonoBehaviour
 
     public void SplatSnot(int width)
     {
+        width *= 100;
         RaycastHit hit;
         if(Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out hit, Mathf.Infinity))
         {
@@ -68,7 +70,7 @@ public class SplatScript : MonoBehaviour
                 Vector2Int pixelUV = new Vector2Int((int) pixelUVfloat.x, (int) pixelUVfloat.y);
 
                 Texture2D newTex = textureToChange;
-                Debug.Log(textureToChange);
+                Debug.Log(width);
                 
                     Vector2Int start = new Vector2Int(pixelUV.x - width/2, pixelUV.y - width/2);
                     List<Color32> newColors = new List<Color32>();

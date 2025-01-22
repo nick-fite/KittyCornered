@@ -17,12 +17,12 @@ public class Bubble : Health
     public override void Death()
     {
         base.Death();
-        splat.SplatSnot((int) spCollider.radius);        
+        splat.SplatSnot((int) Scale);        
+        Destroy(gameObject);
     }
 
     void Update()
     {
-        
         transform.localScale += Vector3.one * _growRate * Time.deltaTime;
         Scale = Vector3.Magnitude(transform.localScale);
     }
