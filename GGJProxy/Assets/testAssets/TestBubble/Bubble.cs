@@ -1,10 +1,25 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Bubble : MonoBehaviour
+public class Bubble : Health
 {
     [SerializeField] float _growRate = 1f;
     public float Scale; 
+    SphereCollider spCollider;
+    SplatScript splat;
+
+    void Start()
+    {
+        spCollider = GetComponent<SphereCollider>();
+        splat = GetComponent<SplatScript>();
+    }
+
+    public override void Death()
+    {
+        base.Death();
+        splat.SplatSnot((int) spCollider.radius);        
+    }
+
     void Update()
     {
         

@@ -230,6 +230,9 @@ GameObject:
   - component: {fileID: 3584866209490105000}
   - component: {fileID: 8903945516011487470}
   - component: {fileID: 6835221327397795800}
+  - component: {fileID: 6949169752808938914}
+  - component: {fileID: 7387831755918736630}
+  - component: {fileID: 880771356661780745}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -337,11 +340,97 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 3dd1a5bb-237a-409d-b7f0-24475ecf8b98
     m_ActionName: 'Default/Walk[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 880771356661780745}
+        m_TargetAssemblyTypeName: Shoot, Assembly-CSharp
+        m_MethodName: OnMousePress
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 2859a0e8-4cc7-4993-916a-1ea9689753ab
+    m_ActionName: 'Default/Shoot[/Mouse/leftButton]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 880771356661780745}
+        m_TargetAssemblyTypeName: Shoot, Assembly-CSharp
+        m_MethodName: OnMouseMove
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 336bee0e-7fbc-46c7-8699-250cdb67e7ec
+    m_ActionName: Default/PointGun
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Default
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!54 &6949169752808938914
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2918961304817537993}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!114 &7387831755918736630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2918961304817537993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c001ff3164e26b4ca41e835ae2d205c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floorTexture: {fileID: 2800000, guid: b92b8c7aff1b96f4fa5583a6fd639560, type: 3}
+  bloodFloorTexture: {fileID: 2800000, guid: cc3f8571a062ed842a0a95c5942467ab, type: 3}
+--- !u!114 &880771356661780745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2918961304817537993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 046ec7aaa1f8e594aa1c4f3f482bb298, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startShootingPos: {fileID: 7064524436373672782}
 --- !u!1 &3698445319197142508
 GameObject:
   m_ObjectHideFlags: 0
@@ -367,7 +456,7 @@ Transform:
   m_GameObject: {fileID: 3698445319197142508}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.477, y: 0.372, z: 0}
+  m_LocalPosition: {x: -0.477, y: 0.372, z: 0.652}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
         Gameplay,
         Cinematic
     }
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : Health
 {
     CharacterController _charCont;
     Vector2 _rawMovementInput;
@@ -17,12 +17,14 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Camera _cam;
     [SerializeField] float _turnSmoothVelocity;
     [SerializeField] float _turnSmoothTime;
-    
+    [SerializeField] int _health;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         _charCont = gameObject.GetComponent<CharacterController>();
         _cam = Camera.main;
+        health = _health;
     }
 
     // Update is called once per frame
@@ -56,6 +58,13 @@ public class PlayerMovement : MonoBehaviour
     {
         _gravVelocity = -9.81f * _gravMultiplyer * Time.deltaTime;
     }
+
+    public override void Death()
+    {
+        base.Death();
+        //Destroy(gameObject);
+    }
+
 
     private float GetTargetAngle()
     {

@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 6779299687869709154}
   - component: {fileID: 6672902649585226881}
   - component: {fileID: 6248369962427717098}
+  - component: {fileID: -622404512851851394}
   m_Layer: 0
   m_Name: TestBubble
   m_TagString: Untagged
@@ -133,6 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13ad9f4635bc8ae4c937aa609160efb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 10
   _growRate: 0.25
   Scale: 0
 --- !u!135 &6672902649585226881
@@ -183,3 +185,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-622404512851851394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3574722214713473836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df172dfdb61d3dc4984ddafcce19d1ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

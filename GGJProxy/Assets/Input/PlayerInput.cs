@@ -35,6 +35,24 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Shoot"",
+                    ""type"": ""Button"",
+                    ""id"": ""2859a0e8-4cc7-4993-916a-1ea9689753ab"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""PointGun"",
+                    ""type"": ""Value"",
+                    ""id"": ""336bee0e-7fbc-46c7-8699-250cdb67e7ec"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -92,6 +110,28 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                     ""action"": ""Walk"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""bbf8dc4c-20a0-4e76-a398-b4756afab91c"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Shoot"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""29b88507-9606-45ff-ac78-a52d7f009f0d"",
+                    ""path"": ""<Mouse>/position"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PointGun"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -101,6 +141,8 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         // Default
         m_Default = asset.FindActionMap("Default", throwIfNotFound: true);
         m_Default_Walk = m_Default.FindAction("Walk", throwIfNotFound: true);
+        m_Default_Shoot = m_Default.FindAction("Shoot", throwIfNotFound: true);
+        m_Default_PointGun = m_Default.FindAction("PointGun", throwIfNotFound: true);
     }
 
     ~@PlayerInput()
@@ -168,11 +210,15 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Default;
     private List<IDefaultActions> m_DefaultActionsCallbackInterfaces = new List<IDefaultActions>();
     private readonly InputAction m_Default_Walk;
+    private readonly InputAction m_Default_Shoot;
+    private readonly InputAction m_Default_PointGun;
     public struct DefaultActions
     {
         private @PlayerInput m_Wrapper;
         public DefaultActions(@PlayerInput wrapper) { m_Wrapper = wrapper; }
         public InputAction @Walk => m_Wrapper.m_Default_Walk;
+        public InputAction @Shoot => m_Wrapper.m_Default_Shoot;
+        public InputAction @PointGun => m_Wrapper.m_Default_PointGun;
         public InputActionMap Get() { return m_Wrapper.m_Default; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -185,6 +231,12 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             @Walk.started += instance.OnWalk;
             @Walk.performed += instance.OnWalk;
             @Walk.canceled += instance.OnWalk;
+            @Shoot.started += instance.OnShoot;
+            @Shoot.performed += instance.OnShoot;
+            @Shoot.canceled += instance.OnShoot;
+            @PointGun.started += instance.OnPointGun;
+            @PointGun.performed += instance.OnPointGun;
+            @PointGun.canceled += instance.OnPointGun;
         }
 
         private void UnregisterCallbacks(IDefaultActions instance)
@@ -192,6 +244,12 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             @Walk.started -= instance.OnWalk;
             @Walk.performed -= instance.OnWalk;
             @Walk.canceled -= instance.OnWalk;
+            @Shoot.started -= instance.OnShoot;
+            @Shoot.performed -= instance.OnShoot;
+            @Shoot.canceled -= instance.OnShoot;
+            @PointGun.started -= instance.OnPointGun;
+            @PointGun.performed -= instance.OnPointGun;
+            @PointGun.canceled -= instance.OnPointGun;
         }
 
         public void RemoveCallbacks(IDefaultActions instance)
@@ -212,5 +270,7 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
     public interface IDefaultActions
     {
         void OnWalk(InputAction.CallbackContext context);
+        void OnShoot(InputAction.CallbackContext context);
+        void OnPointGun(InputAction.CallbackContext context);
     }
 }
