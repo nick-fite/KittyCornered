@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: hands
+  m_Mask: 01000000010000000100000001000000010000000000000000000000000000000000000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Hip_L
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Hip_L/Walter_Rig:HipPart1_L
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Hip_L/Walter_Rig:HipPart1_L/Walter_Rig:Knee_L
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Hip_L/Walter_Rig:HipPart1_L/Walter_Rig:Knee_L/Walter_Rig:KneePart1_L
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Hip_L/Walter_Rig:HipPart1_L/Walter_Rig:Knee_L/Walter_Rig:KneePart1_L/Walter_Rig:Ankle_L
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Hip_L/Walter_Rig:HipPart1_L/Walter_Rig:Knee_L/Walter_Rig:KneePart1_L/Walter_Rig:Ankle_L/Walter_Rig:Toes_L
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Hip_L/Walter_Rig:HipPart1_L/Walter_Rig:Knee_L/Walter_Rig:KneePart1_L/Walter_Rig:Ankle_L/Walter_Rig:Toes_L/Walter_Rig:ToesEnd_L
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Hip_R
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Hip_R/Walter_Rig:HipPart1_R
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Hip_R/Walter_Rig:HipPart1_R/Walter_Rig:Knee_R
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Hip_R/Walter_Rig:HipPart1_R/Walter_Rig:Knee_R/Walter_Rig:KneePart1_R
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Hip_R/Walter_Rig:HipPart1_R/Walter_Rig:Knee_R/Walter_Rig:KneePart1_R/Walter_Rig:Ankle_R
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Hip_R/Walter_Rig:HipPart1_R/Walter_Rig:Knee_R/Walter_Rig:KneePart1_R/Walter_Rig:Ankle_R/Walter_Rig:Toes_R
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Hip_R/Walter_Rig:HipPart1_R/Walter_Rig:Knee_R/Walter_Rig:KneePart1_R/Walter_Rig:Ankle_R/Walter_Rig:Toes_R/Walter_Rig:ToesEnd_R
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Spine1_M
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Spine1_M/Walter_Rig:Spine2_M
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Spine1_M/Walter_Rig:Spine2_M/Walter_Rig:Chest_M
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Spine1_M/Walter_Rig:Spine2_M/Walter_Rig:Chest_M/Walter_Rig:Neck_M
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Spine1_M/Walter_Rig:Spine2_M/Walter_Rig:Chest_M/Walter_Rig:Neck_M/Walter_Rig:Head_M
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Spine1_M/Walter_Rig:Spine2_M/Walter_Rig:Chest_M/Walter_Rig:Neck_M/Walter_Rig:Head_M/Walter_Rig:HeadEnd_M
+    m_Weight: 1
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Spine1_M/Walter_Rig:Spine2_M/Walter_Rig:Chest_M/Walter_Rig:Scapula_L
+    m_Weight: 0
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Spine1_M/Walter_Rig:Spine2_M/Walter_Rig:Chest_M/Walter_Rig:Scapula_L/Walter_Rig:Shoulder_L
+    m_Weight: 0
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Spine1_M/Walter_Rig:Spine2_M/Walter_Rig:Chest_M/Walter_Rig:Scapula_L/Walter_Rig:Shoulder_L/Walter_Rig:ShoulderPart1_L
+    m_Weight: 0
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Spine1_M/Walter_Rig:Spine2_M/Walter_Rig:Chest_M/Walter_Rig:Scapula_L/Walter_Rig:Shoulder_L/Walter_Rig:ShoulderPart1_L/Walter_Rig:Elbow_L
+    m_Weight: 0
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Spine1_M/Walter_Rig:Spine2_M/Walter_Rig:Chest_M/Walter_Rig:Scapula_L/Walter_Rig:Shoulder_L/Walter_Rig:ShoulderPart1_L/Walter_Rig:Elbow_L/Walter_Rig:ElbowPart1_L
+    m_Weight: 0
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Spine1_M/Walter_Rig:Spine2_M/Walter_Rig:Chest_M/Walter_Rig:Scapula_L/Walter_Rig:Shoulder_L/Walter_Rig:ShoulderPart1_L/Walter_Rig:Elbow_L/Walter_Rig:ElbowPart1_L/Walter_Rig:Wrist_L
+    m_Weight: 0
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Spine1_M/Walter_Rig:Spine2_M/Walter_Rig:Chest_M/Walter_Rig:Scapula_R
+    m_Weight: 0
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Spine1_M/Walter_Rig:Spine2_M/Walter_Rig:Chest_M/Walter_Rig:Scapula_R/Walter_Rig:Shoulder_R
+    m_Weight: 0
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Spine1_M/Walter_Rig:Spine2_M/Walter_Rig:Chest_M/Walter_Rig:Scapula_R/Walter_Rig:Shoulder_R/Walter_Rig:ShoulderPart1_R
+    m_Weight: 0
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Spine1_M/Walter_Rig:Spine2_M/Walter_Rig:Chest_M/Walter_Rig:Scapula_R/Walter_Rig:Shoulder_R/Walter_Rig:ShoulderPart1_R/Walter_Rig:Elbow_R
+    m_Weight: 0
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Spine1_M/Walter_Rig:Spine2_M/Walter_Rig:Chest_M/Walter_Rig:Scapula_R/Walter_Rig:Shoulder_R/Walter_Rig:ShoulderPart1_R/Walter_Rig:Elbow_R/Walter_Rig:ElbowPart1_R
+    m_Weight: 0
+  - m_Path: Walter_Rig:Root_M/Walter_Rig:Spine1_M/Walter_Rig:Spine2_M/Walter_Rig:Chest_M/Walter_Rig:Scapula_R/Walter_Rig:Shoulder_R/Walter_Rig:ShoulderPart1_R/Walter_Rig:Elbow_R/Walter_Rig:ElbowPart1_R/Walter_Rig:Wrist_R
+    m_Weight: 0
+  - m_Path: Walter_Rig:WalterGeo1
+    m_Weight: 1
+  - m_Path: Walter_Rig:WalterGeo1/Walter_Rig:Walter_Model_New:SK_Walter_Body
+    m_Weight: 1
+  - m_Path: Walter_Rig:WalterGeo1/Walter_Rig:Walter_Model_New:SK_Walter_Ears
+    m_Weight: 1
+  - m_Path: Walter_Rig:WalterGeo1/Walter_Rig:Walter_Model_New:SK_Walter_Head
+    m_Weight: 1

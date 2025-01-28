@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6365456149522733482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6120597158700784512}
+  - component: {fileID: 2114404780092064036}
+  - component: {fileID: 9108388294496711267}
+  - component: {fileID: 6987098836493596310}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6120597158700784512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6365456149522733482}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.02565974, y: 0.8399999, z: 0.99549997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2114404780092064036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6365456149522733482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8314995395f033d42aa290415fd6ade0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SplatBrushTexture: {fileID: 2800000, guid: d36c1c3ecde894544a6fe0e06db7cdf2, type: 3}
+  BloodMaskTexture: {fileID: 2800000, guid: 99e9025bff58c7a4090dcbb9337b0007, type: 3}
+  SnottyMaskTexture: {fileID: 2800000, guid: 8def029a8f2cdd948ab76d341b4f3003, type: 3}
+--- !u!114 &9108388294496711267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6365456149522733482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c46259510d32f74ab5c8d814e3872d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objsThatNeedToBeDestroyed:
+  - {fileID: 0}
+  dirtAmount: 0
+--- !u!114 &6987098836493596310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6365456149522733482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81dfca08c1d2984abecd1016733c506, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShootingClip: {fileID: 0}
+  stompingClip: {fileID: 0}
+  ratClip: {fileID: 0}
+  bubbleClip: {fileID: 0}

@@ -1,0 +1,490 @@
+fileFormatVersion: 2
+guid: be5304fd1f24b5e4d958876859329953
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Shoot' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Rig_Walter:Scapula_R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Rig_Walter:Scapula_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Rig_Walter:Hip_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Rig_Walter:KneePart1_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Rig_Walter:Hip_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Rig_Walter:KneePart1_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Shoot
+      takeName: Shoot
+      internalID: -3704289112126983070
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Rig_Walter:Root_M
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:HipPart1_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:HipPart1_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:Knee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:Knee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:Ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:Ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:Spine1_M
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:Spine2_M
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:Neck_M
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:Head_M
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:Shoulder_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:Shoulder_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:ShoulderPart1_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:ShoulderPart1_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:Elbow_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:Elbow_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:Wrist_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:Wrist_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:Toes_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:Toes_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Walter:Chest_M
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: A_Walter_Shoot(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Root_M
+      parentName: A_Walter_Shoot(Clone)
+      position: {x: -4.7669757e-19, y: 0.21039863, z: -0.0044293017}
+      rotation: {x: 0.5218023, y: -0.5090758, z: -0.43872812, w: 0.5254349}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Spine1_M
+      parentName: Rig_Walter:Root_M
+      position: {x: -0.06925753, y: -7.9936054e-17, z: -4.9960035e-17}
+      rotation: {x: -1.2794347e-18, y: -1.2221803e-18, z: 0.050922893, w: 0.9987026}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Spine2_M
+      parentName: Rig_Walter:Spine1_M
+      position: {x: -0.09002217, y: 2.6645352e-17, z: -3.4416914e-17}
+      rotation: {x: -0.11206316, y: 0.07890424, z: 0.12603958, w: 0.9825121}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Chest_M
+      parentName: Rig_Walter:Spine2_M
+      position: {x: -0.08177328, y: 9.947598e-16, z: -6.217249e-17}
+      rotation: {x: 2.6922012e-17, y: 2.6031185e-17, z: -0.056723252, w: 0.99838996}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Neck_M
+      parentName: Rig_Walter:Chest_M
+      position: {x: -0.053923037, y: 3.375078e-16, z: 7.9936054e-17}
+      rotation: {x: 0.0002375887, y: 0.10098098, z: -0.09594143, w: 0.99025154}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Head_M
+      parentName: Rig_Walter:Neck_M
+      position: {x: -0.17135316, y: -7.105427e-17, z: -1.0658141e-16}
+      rotation: {x: 0.1235982, y: -0.007899306, z: 0.09878648, w: 0.98737144}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:HeadEnd_M
+      parentName: Rig_Walter:Head_M
+      position: {x: -0.2124719, y: 3.5083046e-16, z: -2.8907008e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Scapula_R
+      parentName: Rig_Walter:Chest_M
+      position: {x: -0.018419577, y: 0.008549046, z: -0.022917327}
+      rotation: {x: 0.25020546, y: -0.58370465, z: -0.09684927, w: 0.7663592}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Shoulder_R
+      parentName: Rig_Walter:Scapula_R
+      position: {x: -0.065100506, y: 6.217249e-17, z: -2.842171e-16}
+      rotation: {x: 0.004603355, y: -0.24544999, z: 0.051763345, w: 0.9680153}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:ShoulderPart1_R
+      parentName: Rig_Walter:Shoulder_R
+      position: {x: -0.07332937, y: -2.9309886e-16, z: -7.105427e-17}
+      rotation: {x: -0.103089124, y: -0.011099812, z: 0.12192073, w: 0.98710936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Elbow_R
+      parentName: Rig_Walter:ShoulderPart1_R
+      position: {x: -0.07332937, y: -3.2862602e-16, z: -7.105427e-17}
+      rotation: {x: -0.1094418, y: -0.012314945, z: 0.011831396, w: 0.99384654}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:ElbowPart1_R
+      parentName: Rig_Walter:Elbow_R
+      position: {x: -0.065528795, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Wrist_R
+      parentName: Rig_Walter:ElbowPart1_R
+      position: {x: -0.065528795, y: 1.49325e-16, z: -1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Scapula_L
+      parentName: Rig_Walter:Chest_M
+      position: {x: -0.018419577, y: 0.008549046, z: 0.022917327}
+      rotation: {x: 0.6784824, y: 0.20875835, z: 0.6826582, w: 0.17337672}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Shoulder_L
+      parentName: Rig_Walter:Scapula_L
+      position: {x: 0.065100506, y: 1.4210854e-16, z: 7.105427e-17}
+      rotation: {x: 0.2989907, y: 0.16867405, z: 0.15224147, w: 0.92680967}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:ShoulderPart1_L
+      parentName: Rig_Walter:Shoulder_L
+      position: {x: 0.07332937, y: 2.1316282e-16, z: 4.2632563e-16}
+      rotation: {x: -0.06823551, y: 0.061873384, z: 0.06729283, w: 0.9934724}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Elbow_L
+      parentName: Rig_Walter:ShoulderPart1_L
+      position: {x: 0.07332937, y: 7.105427e-17, z: 1.4210854e-16}
+      rotation: {x: -0.06471111, y: 0.016942618, z: 0.00007129178, w: 0.9977602}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:ElbowPart1_L
+      parentName: Rig_Walter:Elbow_L
+      position: {x: 0.065528795, y: 1.1657341e-17, z: -7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Wrist_L
+      parentName: Rig_Walter:ElbowPart1_L
+      position: {x: 0.065528795, y: -1.8374191e-16, z: 3.5527135e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Hip_R
+      parentName: Rig_Walter:Root_M
+      position: {x: 0.055518568, y: -0.002324977, z: -0.06284335}
+      rotation: {x: -0.61473364, y: 0.78505534, z: -0.0056111603, w: -0.07589019}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:HipPart1_R
+      parentName: Rig_Walter:Hip_R
+      position: {x: -0.047845464, y: -1.4013342e-11, z: -3.4437696e-12}
+      rotation: {x: 0.047914047, y: -0.057140805, z: 0.57218015, w: 0.81673074}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Knee_R
+      parentName: Rig_Walter:HipPart1_R
+      position: {x: -0.047845464, y: -1.4319905e-11, z: -1.7815704e-12}
+      rotation: {x: 0.050861325, y: -0.010195828, z: 0.32125935, w: 0.9455694}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:KneePart1_R
+      parentName: Rig_Walter:Knee_R
+      position: {x: -0.02849435, y: -8.593677e-12, z: -3.5527136e-17}
+      rotation: {x: -0.008624953, y: 0, z: -0, w: 0.9999628}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Ankle_R
+      parentName: Rig_Walter:KneePart1_R
+      position: {x: -0.02849435, y: -8.592398e-12, z: -1.4826362e-13}
+      rotation: {x: -0.031815123, y: -0.009246469, z: -0.3966302, w: 0.91738045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Toes_R
+      parentName: Rig_Walter:Ankle_R
+      position: {x: -0.03763861, y: 0.024799757, z: 6.0582472e-12}
+      rotation: {x: -0.003762947, y: -0.007277238, z: 0.88824475, w: -0.45929748}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:ToesEnd_R
+      parentName: Rig_Walter:Toes_R
+      position: {x: -0.022429483, y: 2.4233948e-14, z: 0.000000039300453}
+      rotation: {x: -0.0000005443303, y: 0.00000088437696, z: 4.813932e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Hip_L
+      parentName: Rig_Walter:Root_M
+      position: {x: 0.055518568, y: -0.002324977, z: 0.06284335}
+      rotation: {x: 0.9776064, y: -0.030390652, z: 0.20819, w: -0.004366466}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:HipPart1_L
+      parentName: Rig_Walter:Hip_L
+      position: {x: 0.047845464, y: 1.3184662e-11, z: 5.864944e-12}
+      rotation: {x: 0.10280443, y: -0.009306522, z: 0.0012029129, w: 0.9946574}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Knee_L
+      parentName: Rig_Walter:HipPart1_L
+      position: {x: 0.047845464, y: 1.4105463e-11, z: 3.0443202e-12}
+      rotation: {x: 0.12594473, y: -0.07313634, z: 0.2627233, w: 0.9538163}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:KneePart1_L
+      parentName: Rig_Walter:Knee_L
+      position: {x: 0.02849435, y: 8.593584e-12, z: 3.5527136e-17}
+      rotation: {x: -0.05975385, y: 0, z: -0, w: 0.9982132}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Ankle_L
+      parentName: Rig_Walter:KneePart1_L
+      position: {x: 0.02849435, y: 8.532228e-12, z: 1.0252421e-12}
+      rotation: {x: -0.012917497, y: -0.1689019, z: -0.34302047, w: 0.92392766}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:Toes_L
+      parentName: Rig_Walter:Ankle_L
+      position: {x: 0.03763861, y: -0.024799757, z: -5.700986e-12}
+      rotation: {x: -0.0037634254, y: -0.007278164, z: 0.88824475, w: -0.45929754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Walter:ToesEnd_L
+      parentName: Rig_Walter:Toes_L
+      position: {x: 0.022429483, y: 1.2878587e-16, z: -0.0000000012082547}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

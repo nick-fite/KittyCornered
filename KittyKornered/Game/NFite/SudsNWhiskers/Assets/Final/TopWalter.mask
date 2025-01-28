@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TopWalter
+  m_Mask: 00000000010000000100000000000000000000000100000001000000010000000100000000000000000000000000000000000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M
+    m_Weight: 0
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Hip_L
+    m_Weight: 0
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Hip_L/Rig_Walter:HipPart1_L
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Hip_L/Rig_Walter:HipPart1_L/Rig_Walter:Knee_L
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Hip_L/Rig_Walter:HipPart1_L/Rig_Walter:Knee_L/Rig_Walter:KneePart1_L
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Hip_L/Rig_Walter:HipPart1_L/Rig_Walter:Knee_L/Rig_Walter:KneePart1_L/Rig_Walter:Ankle_L
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Hip_L/Rig_Walter:HipPart1_L/Rig_Walter:Knee_L/Rig_Walter:KneePart1_L/Rig_Walter:Ankle_L/Rig_Walter:Toes_L
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Hip_L/Rig_Walter:HipPart1_L/Rig_Walter:Knee_L/Rig_Walter:KneePart1_L/Rig_Walter:Ankle_L/Rig_Walter:Toes_L/Rig_Walter:ToesEnd_L
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Hip_R
+    m_Weight: 0
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Hip_R/Rig_Walter:HipPart1_R
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Hip_R/Rig_Walter:HipPart1_R/Rig_Walter:Knee_R
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Hip_R/Rig_Walter:HipPart1_R/Rig_Walter:Knee_R/Rig_Walter:KneePart1_R
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Hip_R/Rig_Walter:HipPart1_R/Rig_Walter:Knee_R/Rig_Walter:KneePart1_R/Rig_Walter:Ankle_R
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Hip_R/Rig_Walter:HipPart1_R/Rig_Walter:Knee_R/Rig_Walter:KneePart1_R/Rig_Walter:Ankle_R/Rig_Walter:Toes_R
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Hip_R/Rig_Walter:HipPart1_R/Rig_Walter:Knee_R/Rig_Walter:KneePart1_R/Rig_Walter:Ankle_R/Rig_Walter:Toes_R/Rig_Walter:ToesEnd_R
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Spine1_M
+    m_Weight: 0
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Spine1_M/Rig_Walter:Spine2_M
+    m_Weight: 0
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Spine1_M/Rig_Walter:Spine2_M/Rig_Walter:Chest_M
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Spine1_M/Rig_Walter:Spine2_M/Rig_Walter:Chest_M/Rig_Walter:Neck_M
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Spine1_M/Rig_Walter:Spine2_M/Rig_Walter:Chest_M/Rig_Walter:Neck_M/Rig_Walter:Head_M
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Spine1_M/Rig_Walter:Spine2_M/Rig_Walter:Chest_M/Rig_Walter:Neck_M/Rig_Walter:Head_M/Rig_Walter:HeadEnd_M
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Spine1_M/Rig_Walter:Spine2_M/Rig_Walter:Chest_M/Rig_Walter:Scapula_L
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Spine1_M/Rig_Walter:Spine2_M/Rig_Walter:Chest_M/Rig_Walter:Scapula_L/Rig_Walter:Shoulder_L
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Spine1_M/Rig_Walter:Spine2_M/Rig_Walter:Chest_M/Rig_Walter:Scapula_L/Rig_Walter:Shoulder_L/Rig_Walter:ShoulderPart1_L
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Spine1_M/Rig_Walter:Spine2_M/Rig_Walter:Chest_M/Rig_Walter:Scapula_L/Rig_Walter:Shoulder_L/Rig_Walter:ShoulderPart1_L/Rig_Walter:Elbow_L
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Spine1_M/Rig_Walter:Spine2_M/Rig_Walter:Chest_M/Rig_Walter:Scapula_L/Rig_Walter:Shoulder_L/Rig_Walter:ShoulderPart1_L/Rig_Walter:Elbow_L/Rig_Walter:ElbowPart1_L
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Spine1_M/Rig_Walter:Spine2_M/Rig_Walter:Chest_M/Rig_Walter:Scapula_L/Rig_Walter:Shoulder_L/Rig_Walter:ShoulderPart1_L/Rig_Walter:Elbow_L/Rig_Walter:ElbowPart1_L/Rig_Walter:Wrist_L
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Spine1_M/Rig_Walter:Spine2_M/Rig_Walter:Chest_M/Rig_Walter:Scapula_R
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Spine1_M/Rig_Walter:Spine2_M/Rig_Walter:Chest_M/Rig_Walter:Scapula_R/Rig_Walter:Shoulder_R
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Spine1_M/Rig_Walter:Spine2_M/Rig_Walter:Chest_M/Rig_Walter:Scapula_R/Rig_Walter:Shoulder_R/Rig_Walter:ShoulderPart1_R
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Spine1_M/Rig_Walter:Spine2_M/Rig_Walter:Chest_M/Rig_Walter:Scapula_R/Rig_Walter:Shoulder_R/Rig_Walter:ShoulderPart1_R/Rig_Walter:Elbow_R
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Spine1_M/Rig_Walter:Spine2_M/Rig_Walter:Chest_M/Rig_Walter:Scapula_R/Rig_Walter:Shoulder_R/Rig_Walter:ShoulderPart1_R/Rig_Walter:Elbow_R/Rig_Walter:ElbowPart1_R
+    m_Weight: 1
+  - m_Path: Rig_Walter:Root_M/Rig_Walter:Spine1_M/Rig_Walter:Spine2_M/Rig_Walter:Chest_M/Rig_Walter:Scapula_R/Rig_Walter:Shoulder_R/Rig_Walter:ShoulderPart1_R/Rig_Walter:Elbow_R/Rig_Walter:ElbowPart1_R/Rig_Walter:Wrist_R
+    m_Weight: 1
+  - m_Path: Rig_Walter:Walter_Model:SK_Walter_Arm_L
+    m_Weight: 0
+  - m_Path: Rig_Walter:Walter_Model:SK_Walter_Arm_R
+    m_Weight: 0
+  - m_Path: Rig_Walter:Walter_Model:SK_Walter_Body
+    m_Weight: 0
+  - m_Path: Rig_Walter:Walter_Model:SK_Walter_Ear_L
+    m_Weight: 0
+  - m_Path: Rig_Walter:Walter_Model:SK_Walter_Ear_R
+    m_Weight: 0
+  - m_Path: Rig_Walter:Walter_Model:SK_Walter_Head
+    m_Weight: 0
+  - m_Path: Rig_Walter:Walter_Model:SK_Walter_Leg_L
+    m_Weight: 0
+  - m_Path: Rig_Walter:Walter_Model:SK_Walter_Leg_R
+    m_Weight: 0
+  - m_Path: Rig_Walter:Walter_Model:SK_Walter_Neck
+    m_Weight: 0
+  - m_Path: Rig_Walter:Walter_Model:SK_Walter_Tail
+    m_Weight: 0

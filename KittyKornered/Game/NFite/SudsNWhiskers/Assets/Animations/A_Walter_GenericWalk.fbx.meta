@@ -1,0 +1,510 @@
+fileFormatVersion: 2
+guid: 617d6f6c4ae992b438a8a6340ccfe3a1
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'GenericWalk' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Walter_Rig:Scapula_R' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Walter_Rig:Scapula_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Walter_Rig:HipPart1_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Walter_Rig:KneePart1_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Walter_Rig:HipPart1_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Walter_Rig:KneePart1_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: GenericWalk
+      takeName: GenericWalk
+      internalID: 8280092992794227261
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Walter_Rig:Root_M
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:Hip_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:Hip_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:Knee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:Knee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:Ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:Ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:Spine1_M
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:Spine2_M
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:Neck_M
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:Head_M
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:Shoulder_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:Shoulder_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:ShoulderPart1_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:ShoulderPart1_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:Elbow_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:Elbow_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:Wrist_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:Wrist_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:Toes_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:Toes_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Walter_Rig:Chest_M
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: A_Walter_GenericWalkTest5(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Walter_Rig:WalterGeo1
+      parentName: A_Walter_GenericWalkTest5(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Walter_Rig:Walter_Model_New:SK_Walter_Head
+      parentName: Walter_Rig:WalterGeo1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Walter_Rig:Walter_Model_New:SK_Walter_Ears
+      parentName: Walter_Rig:WalterGeo1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Walter_Rig:Walter_Model_New:SK_Walter_Body
+      parentName: Walter_Rig:WalterGeo1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Walter_Rig:Root_M
+      parentName: A_Walter_GenericWalkTest5(Clone)
+      position: {x: -4.9273706e-18, y: 0.25107735, z: -0.0044293017}
+      rotation: {x: 0.49538833, y: -0.5045696, z: -0.49538833, w: 0.50456953}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.9999997}
+    - name: Walter_Rig:Spine1_M
+      parentName: Walter_Rig:Root_M
+      position: {x: -0.06925753, y: -6.4392934e-17, z: -2.1094237e-17}
+      rotation: {x: -0.000000029802322, y: 0.000000029802322, z: 0.0027455688, w: 0.9999963}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: Walter_Rig:Spine2_M
+      parentName: Walter_Rig:Spine1_M
+      position: {x: -0.09002217, y: 1.9984014e-17, z: 1.4432899e-17}
+      rotation: {x: 2.1053381e-10, y: 2.1086954e-10, z: -0.0070699635, w: 0.9999751}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: Walter_Rig:Chest_M
+      parentName: Walter_Rig:Spine2_M
+      position: {x: -0.08177328, y: 1.005862e-15, z: -2.6645352e-17}
+      rotation: {x: -0.0000000016349659, y: -0.0000000017455511, z: 0.056723114, w: -0.99839}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000006}
+    - name: Walter_Rig:Neck_M
+      parentName: Walter_Rig:Chest_M
+      position: {x: -0.053923037, y: 3.1974422e-16, z: 1.04360964e-16}
+      rotation: {x: -0.0000000011480256, y: -0.0000000012461868, z: 0.040193815, w: 0.99919194}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999998}
+    - name: Walter_Rig:Head_M
+      parentName: Walter_Rig:Neck_M
+      position: {x: -0.17135316, y: -1.8096635e-16, z: -7.9936054e-17}
+      rotation: {x: 0.0000000068781647, y: -0.000000069023805, z: 0.004917349, w: -0.9999879}
+      scale: {x: 0.9999998, y: 1.0000002, z: 1.0000001}
+    - name: Walter_Rig:HeadEnd_M
+      parentName: Walter_Rig:Head_M
+      position: {x: -0.2124719, y: 3.5083046e-16, z: -2.8907008e-16}
+      rotation: {x: -4.4408916e-16, y: -7.1054265e-15, z: 4.747571e-16, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000005}
+    - name: Walter_Rig:Scapula_R
+      parentName: Walter_Rig:Chest_M
+      position: {x: -0.018419577, y: 0.008549046, z: -0.022917327}
+      rotation: {x: -0.0014563919, y: -0.70987064, z: 0.03648806, w: 0.7033849}
+      scale: {x: 1.0000012, y: 1.0000007, z: 1.0000005}
+    - name: Walter_Rig:Shoulder_R
+      parentName: Walter_Rig:Scapula_R
+      position: {x: -0.065100506, y: 3.1086245e-17, z: -2.842171e-16}
+      rotation: {x: 0.012625097, y: -0.0008504984, z: -0.016612973, w: 0.9997819}
+      scale: {x: 1.0000004, y: 1.0000008, z: 1.0000007}
+    - name: Walter_Rig:ShoulderPart1_R
+      parentName: Walter_Rig:Shoulder_R
+      position: {x: -0.07332937, y: -2.0428103e-16, z: -2.1316282e-16}
+      rotation: {x: -0.000000017695122, y: -5.238688e-10, z: -0.000000024735519, w: 1}
+      scale: {x: 1.0000004, y: 1.0000008, z: 1.0000001}
+    - name: Walter_Rig:Elbow_R
+      parentName: Walter_Rig:ShoulderPart1_R
+      position: {x: -0.07332937, y: -2.0428103e-16, z: -1.4210854e-16}
+      rotation: {x: -0.00000004660487, y: -0.000000054073137, z: -0.04289032, w: 0.99907976}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000007}
+    - name: Walter_Rig:ElbowPart1_R
+      parentName: Walter_Rig:Elbow_R
+      position: {x: -0.065528795, y: 0, z: 0}
+      rotation: {x: -0, y: -3.5527128e-15, z: -2.5200717e-15, w: 1}
+      scale: {x: 1.0000015, y: 1.0000005, z: 1.0000007}
+    - name: Walter_Rig:Wrist_R
+      parentName: Walter_Rig:ElbowPart1_R
+      position: {x: -0.065528795, y: 1.49325e-16, z: -1.4210854e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000012, y: 1.0000007, z: 1.0000007}
+    - name: Walter_Rig:Scapula_L
+      parentName: Walter_Rig:Chest_M
+      position: {x: -0.018419577, y: 0.008549046, z: 0.022917327}
+      rotation: {x: 0.70987064, y: -0.0014562901, z: 0.7033849, w: -0.036488134}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000004}
+    - name: Walter_Rig:Shoulder_L
+      parentName: Walter_Rig:Scapula_L
+      position: {x: 0.065100506, y: 1.3322676e-16, z: 2.1316282e-16}
+      rotation: {x: 0.012624954, y: -0.00085049996, z: -0.016612956, w: 0.99978197}
+      scale: {x: 1.0000018, y: 1.0000011, z: 1.000001}
+    - name: Walter_Rig:ShoulderPart1_L
+      parentName: Walter_Rig:Shoulder_L
+      position: {x: 0.07332937, y: 1.3322676e-17, z: 2.842171e-16}
+      rotation: {x: 0.000000012107188, y: -0.0000000305008, z: -0.000000013275888, w: 1}
+      scale: {x: 1.000001, y: 1.0000007, z: 1.0000004}
+    - name: Walter_Rig:Elbow_L
+      parentName: Walter_Rig:ShoulderPart1_L
+      position: {x: 0.07332937, y: 1.9984014e-17, z: 5.684342e-16}
+      rotation: {x: -0.000000009678946, y: -0.00000008360966, z: -0.042890318, w: 0.9990798}
+      scale: {x: 1.0000015, y: 1.0000013, z: 1.0000012}
+    - name: Walter_Rig:ElbowPart1_L
+      parentName: Walter_Rig:Elbow_L
+      position: {x: 0.065528795, y: 1.1657341e-17, z: -7.105427e-17}
+      rotation: {x: -0, y: -0, z: -0.0000000037252899, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000005}
+    - name: Walter_Rig:Wrist_L
+      parentName: Walter_Rig:ElbowPart1_L
+      position: {x: 0.065528795, y: -1.8374191e-16, z: 3.5527135e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: Walter_Rig:Hip_R
+      parentName: Walter_Rig:Root_M
+      position: {x: 0.055518568, y: -0.002324977, z: -0.06284335}
+      rotation: {x: -0.039381877, y: 0.9991779, z: 0.0036467314, w: 0.008915544}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: Walter_Rig:HipPart1_R
+      parentName: Walter_Rig:Hip_R
+      position: {x: -0.047845464, y: -1.4430306e-11, z: -3.668177e-15}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: Walter_Rig:Knee_R
+      parentName: Walter_Rig:HipPart1_R
+      position: {x: -0.047845464, y: -1.4430225e-11, z: -4.9329427e-14}
+      rotation: {x: 0.0000000085274205, y: 0.00000003539025, z: 0.037977185, w: 0.9992786}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: Walter_Rig:KneePart1_R
+      parentName: Walter_Rig:Knee_R
+      position: {x: -0.02849435, y: -8.593686e-12, z: -2.6645352e-17}
+      rotation: {x: -0.000000075022484, y: -0.00000009034827, z: -0.000000089406946, w: 1}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000002}
+    - name: Walter_Rig:Ankle_R
+      parentName: Walter_Rig:KneePart1_R
+      position: {x: -0.02849435, y: -8.593703e-12, z: 1.5836221e-14}
+      rotation: {x: -0.0041292957, y: 0.008646666, z: 0.010659558, w: 0.99989736}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000001}
+    - name: Walter_Rig:Toes_R
+      parentName: Walter_Rig:Ankle_R
+      position: {x: -0.03763861, y: 0.024799757, z: 6.346328e-12}
+      rotation: {x: 0.0037629036, y: 0.007277328, z: -0.8882447, w: 0.45929745}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000002}
+    - name: Walter_Rig:ToesEnd_R
+      parentName: Walter_Rig:Toes_R
+      position: {x: -0.022429483, y: 2.4233948e-14, z: 0.000000039300453}
+      rotation: {x: -0.00000053807156, y: 0.0000008926726, z: 0.000000030904626, w: 1}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1.0000004}
+    - name: Walter_Rig:Hip_L
+      parentName: Walter_Rig:Root_M
+      position: {x: 0.055518568, y: -0.002324977, z: 0.06284335}
+      rotation: {x: 0.9991779, y: 0.03938204, z: -0.008915633, w: 0.0036468506}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1.0000002}
+    - name: Walter_Rig:HipPart1_L
+      parentName: Walter_Rig:Hip_L
+      position: {x: 0.047845464, y: 1.4411316e-11, z: 7.396572e-13}
+      rotation: {x: 0.000000047264614, y: -0.000000028579958, z: 0.0000001490116, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: Walter_Rig:Knee_L
+      parentName: Walter_Rig:HipPart1_L
+      position: {x: 0.047845464, y: 1.44241945e-11, z: 4.174172e-13}
+      rotation: {x: -0.0000000014416484, y: 0.00000003080543, z: 0.037977234, w: 0.99927866}
+      scale: {x: 1.0000006, y: 0.9999998, z: 1.0000001}
+    - name: Walter_Rig:KneePart1_L
+      parentName: Walter_Rig:Knee_L
+      position: {x: 0.02849435, y: 8.593626e-12, z: 7.9936054e-17}
+      rotation: {x: 0.000000030026193, y: 0.00000002984769, z: -0.0000000037252894, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: Walter_Rig:Ankle_L
+      parentName: Walter_Rig:KneePart1_L
+      position: {x: 0.02849435, y: 8.592729e-12, z: 1.2046363e-13}
+      rotation: {x: 0.004129295, y: -0.008646606, z: -0.010659455, w: -0.9998973}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: Walter_Rig:Toes_L
+      parentName: Walter_Rig:Ankle_L
+      position: {x: 0.03763861, y: -0.024799757, z: -5.9117153e-13}
+      rotation: {x: -0.0037633653, y: -0.0072781877, z: 0.88824475, w: -0.4592975}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000004}
+    - name: Walter_Rig:ToesEnd_L
+      parentName: Walter_Rig:Toes_L
+      position: {x: 0.022429483, y: 1.2878587e-16, z: -0.0000000012082547}
+      rotation: {x: 0.000000064726905, y: 0.000000024680043, z: -0.000000031779557, w: 1}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000002}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 35b5c7d661248a4489d443a313433124, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
